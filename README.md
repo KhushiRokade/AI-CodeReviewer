@@ -1,7 +1,7 @@
 # AI-Powered Python Code Reviewer 
 
 ## Overview
-This project is an AI-based code reviewer that detects **bugs, inefficiencies, and improvements** in Python code using **Google Gemini AI**.
+A powerful AI-powered web application that analyzes Python code, detects potential bugs, suggests improvements, and provides optimized solutions using Google's Gemini AI.
 
 ##  Tech Stack
 - Python
@@ -10,9 +10,15 @@ This project is an AI-based code reviewer that detects **bugs, inefficiencies, a
 - Google GenerativeAI
 
 ## Features
-✅ Bug Detection  
-✅ AI-Powered Code Fixes  
-✅ Optimization Suggestions  
+  Automated Code Review: AI-powered     analysis to detect syntax errors, logical issues, and inefficiencies.
+
+  Code Optimization: Provides recommendations for improving code quality and performance.
+
+  AI-Powered Bug Detection: Identifies potential issues and suggests fixes.
+
+  User-Friendly UI: Built with Streamlit for an intuitive and seamless experience.
+
+  File Upload Support: Allows users to upload Python scripts for review. 
 
 
 ## ⚠️ Important Note  
