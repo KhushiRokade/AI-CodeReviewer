@@ -9,7 +9,7 @@ A powerful AI-powered web application that analyzes Python code, detects potenti
 - Google Gemini AI API
 - Google GenerativeAI
 
-## Features
+## 🚀 Features
   Automated Code Review: AI-powered     analysis to detect syntax errors, logical issues, and inefficiencies.
 
   Code Optimization: Provides recommendations for improving code quality and performance.
@@ -20,6 +20,49 @@ A powerful AI-powered web application that analyzes Python code, detects potenti
 
   File Upload Support: Allows users to upload Python scripts for review. 
 
+## 🛠 Installation
+
+1. Clone the Repository
+
+git clone https://github.com/your-username/python-code-reviewer.git
+cd python-code-reviewer
+
+2. Create and Activate a Virtual Environment
+
+python -m venv venv
+source venv/bin/activate  # On macOS/Linux
+venv\Scripts\activate    # On Windows
+
+3. Install Dependencies
+
+pip install -r requirements.txt
+
+4. Set up Environment Variables
+
+- Create a .env file and add your API key:
+
+API_KEY=your_google_gemini_api_key
+
+## ▶️ Usage
+
+1. Run the Application
+
+streamlit run app.py
+
+2. Open the displayed URL in your browser.
+
+3. Enter Python code or upload a .py file.
+
+4. Click Review Code to get AI-powered feedback.
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
+
+
+## 📞 Contact
+
+For any issues or suggestions, open an issue on GitHub or reach out via email at khushirokade3150@gmail.com.
 
 ## ⚠️ Important Note  
 This app relies on an AI API with **limited usage per minute**.  
@@ -28,7 +71,9 @@ To resolve this:
 - Wait a few minutes and try again.  
 - Avoid submitting too many queries in a short time.  
 
-Thank you for understanding! 🚀 
+Thank you for understanding! 
+
 ## 🚀 Live Demo  
+
  
  
