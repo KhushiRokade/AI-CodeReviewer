@@ -74,6 +74,7 @@ To resolve this:
 Thank you for understanding! 
 
 ## 🚀 Live Demo  
+🔗 [Click Here to Try the App at streamlit community cloud](https://ai-codereviewer-tbrhbixykkjp8ncpb6ocjc.streamlit.app/) 
 
  
  
