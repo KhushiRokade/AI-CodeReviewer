@@ -41,8 +41,8 @@ def code_review(code):
         return f"Error during code review: {e}"
 
 # Streamlit UI Setup
-st.set_page_config(page_title="Python Code Reviewer", page_icon="⚡", layout="wide")
-st.title("⚡ Python Code Reviewer")
+st.set_page_config(page_title="Python Code Reviewer", page_icon="🤖", layout="wide")
+st.title("🤖 Python Code Reviewer")
 st.markdown("### Analyze your Python code for bugs, optimizations, and improvements!")
 
 # Sidebar
@@ -72,7 +72,3 @@ if st.button("🔍 Review Code"):
         st.markdown(feedback)
     else:
         st.warning("Please enter some Python code before submitting.")
-
-# Footer
-st.sidebar.markdown("---")
-st.sidebar.info("Developed by AI-Powered Review System. Your secure code assistant.")
