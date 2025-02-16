@@ -4,7 +4,7 @@ import os
 import time
 
 # Secure API Key Retrieval
-API_KEY = os.getenv("API_KEY")  # Ensure the API key is securely stored in environment variables
+API_KEY = os.getenv("GEMINI_API_KEY")  # Ensure the API key is securely stored in environment variables
 
 if not API_KEY:
     st.error("API Key is missing. Please set it in your environment variables.")
